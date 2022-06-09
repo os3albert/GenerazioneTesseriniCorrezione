@@ -14,6 +14,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Licenser {
 	
-	private List<Licensable> licensables = new ArrayList<Licensable>();
+	private List<Licensable> licensables = new ArrayList<Licensable>(); // altro commento
 
 }
