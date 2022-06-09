@@ -5,7 +5,7 @@ import com.acme.license.hunting.HuntingLicense;
 
 public class LicenseFactory extends LicenseImp {
 	
-	private final static String LICENSE_TYPE_HUNTING = "HuntingLicense";
+	private final static String LICENSE_TYPE_HUNTING = "HuntingLicense"; // commento
 	private final static String LICENSE_TYPE_FISHING = "FishingLicense";
 	
 	public static LicenseImp create(String type, String email, String numeroLicenza, String nome, String cognome, String indirizzo, String cap,
