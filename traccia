@@ -1,0 +1,24 @@
+da Docente a tutti:    3:04 PM
+
+E necessario gestire l’emissione dei permessi annuali (Tesserini) di caccia e pesca
+L’emissione è subordinata all’esistenza di una licenza valida (non scaduta)
+La procedura dovrà  prendere una lista di licenze (di caccia o di pesca) generare i tesserini, mandarli in stampa e inviare
+una email all’interessato per comunicare l’emissione del tesserino;
+Queste operazioni devono essere simulate con dei system.out
+Utilizzare dove possibile singleton, factory ed eccezioni;
+
+La procedura di generazione deve prevedere un metodo generate.
+
+LicenzeCaccia (email,numero licenza,nome, cognome ,indirizzo, cap, città, atc di riferimento, numero seriale arma, annoDi 
+scadenza, tipologiaPrede)
+LicenzaPesca(email,numero licenza,nome, cognome ,indirizzo, cap, città, tipo licenza (a,b,c), annoDi scadenza, località )
+
+TesserinoCaccia (nome, cognome ,indirizzo, anno di validità, numero licenza,  atc di riferimento)
+TesserinoPesca (nome, cognome ,indirizzo, anno di validità, numero licenza,  località)
+
+da Docente a tutti:    3:04 PM
+Nella procedura generate generare un tesserino copiando i dati comuni, mettere 2022 anno di validità, fare il system out del
+tesserino generato
+1. Fare l system out  scrivendo “tesserino caccia inviato ad atc ” nome dell’atc presente sulla licenza
+2. Fare l system out  scrivendo “tesserino pesca inviato a località ” nome della località presente sulla licenza
+Fare system out “email inviata a ” email che si trova nella licenza

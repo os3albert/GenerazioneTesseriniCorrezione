@@ -1,0 +1,10 @@
+chi e cacciatore o pescatore puo chiedere la licenza, 
+e puo chiedere la licenza che e valida per una tipologia d'arma, 
+per la pesca ce una licenza di base che anche questa dura 10 anni, ed ogni 10 
+anni viene fatto un esame per rilasciarla, ogni anno viene fatto un tesserino per permette 
+di andare a pescare e cacciare, senza la licenza e tesserino non si svolge lattivita, 
+ogni anno si generano tutti i tesserini e li si stampano
+il metodo generate sara quello che generera i tesserini
+atc di riferimento (sono delle associazioni, un po come il caf), sezione sud, sezione nord, pianura, (regioni di caccia)
+
+il metodo generate crea attraverso la licenza il tesserino.
